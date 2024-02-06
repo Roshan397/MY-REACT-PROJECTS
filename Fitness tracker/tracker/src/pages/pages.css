@@ -1,0 +1,117 @@
+.login
+{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    .image{
+        img
+        {
+            height: 700px;
+            width: 550px;
+        }}
+        .image{
+            padding-top: 50px;
+        }
+        .content
+        {
+            padding-top: 150px;
+        }
+}
+.navbar
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    .more
+    {
+        img{
+            height:30px;
+        }
+    }
+    .navbarimage{
+        img{
+            height:30px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    }
+}
+.contents
+{
+    background-image: url("https://4kwallpapers.com/images/wallpapers/workout-limitless-endurance-gym-colorful-smoke-3440x1440-929.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 680px;
+    display: flex;
+    justify-content: space-between;
+    img{
+        padding-top: 300px;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 80px;
+    }
+}
+.homecontent
+{
+    text-align: center;
+    span{
+        font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif; 
+        font-size: 50px;
+    }
+}
+.regulartrack{
+    p{
+        padding-top: 100px;
+        font-weight: 300;
+        font-size: larger;
+    }
+}
+.tablelb{
+    padding: 10px;
+    td{
+        height: 40px;
+        width: 500px;
+        padding: 30px 30px 30px 230px;
+        font-size: 23px;
+        font-weight: 400;
+        color: ghostwhite;
+    }
+    th{
+        border: 1px solid rgb(255, 255, 255);
+        /* background-color: rgb(255, 255, 255); */
+        color: rgb(255, 255, 255); 
+        height: 60px;
+        padding: 30px;
+        width: 500px;
+        font-size: 27px;
+    }
+}
+.leaderboard{
+    background-image: url("hc1.jpg");
+    overflow: hidden;
+    height: 150vh;
+    background-attachment: fixed;
+}
+.listnames
+{
+    .inputt
+    {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+    img{
+        height: 50px;
+    }
+    input{
+        border: none;
+        outline: 1px solid rgb(74, 53, 74);
+        font-size: 14PX;
+        padding: 10px;
+        &::placeholder{
+            color: lightgray;
+        }
+    }
+}

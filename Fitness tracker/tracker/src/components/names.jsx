@@ -1,0 +1,37 @@
+export const Names = [
+    {
+        "name":"Ashok",
+        "calories":450,
+        "rank":1
+    },
+    {
+        "name":"Arjun",
+        "calories":300,
+        "rank":2
+    },
+    {
+        "name":"Sridharan",
+        "calories":295,
+        "rank":3
+    },
+    {
+        "name":"Viraj",
+        "calories":290,
+        "rank":4
+    },
+    {
+        "name":"Vishal",
+        "calories":288,
+        "rank":5
+    },
+    {
+        "name":"Guru",
+        "calories":285,
+        "rank":6
+    },
+    {
+        "name":"Guna",
+        "calories":280,
+        "rank":7
+    },
+]
